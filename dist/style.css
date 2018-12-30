@@ -41,6 +41,8 @@ canvas {
   top: 10%;
   position: absolute;
   left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .select-magic {
@@ -92,9 +94,10 @@ canvas {
 }
 
 #math-task-container {
-  top: 10%;
   position: absolute;
   left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .math-block {
@@ -141,15 +144,16 @@ input.math-block {
 }
 
 #mistake-word-task-container {
-  top: 10%;
   position: absolute;
   left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .mistake-word-block {
   width: 25px;
   height: 50px;
-  margin: 100px 5px 0 5px;
+  margin: 10px 5px 10px 5px;
   border: 1px solid gray;
   font-size: 20px;
   display: inline-flex;
@@ -175,9 +179,10 @@ input.math-block {
 }
 
 #eng-rus-translate-container {
-  top: 10%;
   position: absolute;
   left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .eng-rus-translate-block {
@@ -214,9 +219,10 @@ input.math-block {
 }
 
 #restore-word-order-container {
-  top: 10%;
   position: absolute;
   left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .restore-word-order-block {
@@ -272,9 +278,10 @@ input.math-block {
 }
 
 #speech-synthesis-container {
-  top: 10%;
   position: absolute;
   left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .speech-synthesis-block {
