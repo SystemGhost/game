@@ -1,0 +1,454 @@
+canvas {
+  display: block;
+  border: #333 10px solid;
+}
+
+#pick-magic {
+  position: relative;
+  left: -50%;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+ /*margin-left: 513px; */
+
+  border: 2px solid black;
+  border-radius: 10%;
+  background-color: rgb(182, 174, 174);
+  text-align: center;
+  font-size: 28px;
+  font-family: Fixedsys, 'Comic Sans MS', 'Comic Sans', cursive;
+  cursor: pointer;
+}
+
+#container-pick-magic {
+  top: 40%;
+  position: absolute;
+  left: 50%;
+}
+#modal {
+  position: relative;
+  left: -50%;
+  display: none;
+  max-width: 500px;
+  min-width: 100px;
+  max-height: 400px;
+  height: 100%;
+  background-color: pink;
+  border: 1px solid black;
+}
+
+#container-modal {
+  top: 10%;
+  position: absolute;
+  left: 50%;
+}
+
+.select-magic {
+  width: 200px;
+  height: 60px;
+  margin: 10px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+  font-size: 20px;
+  color: white;
+  background-color: pink;
+  cursor: pointer;
+  border-radius: 10%;
+  border: 1px solid black;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.magic-damage {
+  /* float: left;
+  margin-left: 20px; */
+
+}
+
+.magic-heal {
+  /* float: right;
+  margin-right: 20px; */
+}
+#math-task {
+  position: relative;
+  left: -50%;
+  top: -30%;
+  max-width: 500px;
+  width: 100%;
+  max-height: 500px;
+  height: 100%;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 28px;
+  font-family: Fixedsys, 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+#math-task-container {
+  top: 10%;
+  position: absolute;
+  left: 50%;
+}
+
+.math-block {
+  width: 40px;
+  height: 50px;
+  margin: 100px 10px 10px 10px;
+  border: 1px solid gray;
+  font-size: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input.math-block {
+  width: 50px;
+}
+
+.math-submit-button {
+  width: 150px;
+  height: 50px;
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 10%;
+  background-color: rgb(182, 174, 174);
+  text-align: center;
+  line-height: 50px;
+  font-size: 32px;
+  
+  cursor: pointer;
+}
+#mistake-word-task {
+  position: relative;
+  left: -50%;
+  top: -40%;
+  max-width: 700px;
+  width: 100%;
+  max-height: 500px;
+  height: 100%;
+  background-color: white;
+  border: 1px solid gray;
+  text-align: center;
+  font-size: 28px;
+  font-family: Fixedsys, 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+#mistake-word-task-container {
+  top: 10%;
+  position: absolute;
+  left: 50%;
+}
+
+.mistake-word-block {
+  width: 25px;
+  height: 50px;
+  margin: 100px 5px 0 5px;
+  border: 1px solid gray;
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.mistake-word-block:hover {
+  background-color: rgb(151, 147, 147);
+}#eng-rus-translate-task {
+  position: relative;
+  left: -50%;
+  max-width: 600px;
+  width: 100%;
+  max-height: 500px;
+  height: 100%;
+  background-color: white;
+  border: 1px solid gray;
+  text-align: center;
+  font-size: 28px;
+  font-family: Fixedsys, 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+#eng-rus-translate-container {
+  top: 10%;
+  position: absolute;
+  left: 50%;
+}
+
+.eng-rus-translate-block {
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px 0;
+  font-size: 34px;
+}
+
+.eng-rus-translate-submit-button {
+  width: 150px;
+  height: 50px;
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 10%;
+  background-color: rgb(182, 174, 174);
+  text-align: center;
+  line-height: 50px;
+  font-size: 32px;
+  cursor: pointer;
+}#restore-word-order-task {
+  position: relative;
+  left: -50%;
+  top: -40%;
+  max-width: 600px;
+  width: 100%;
+  max-height: 500px;
+  height: 100%;
+  background-color: white;
+  border: 1px solid gray;
+  text-align: center;
+  font-size: 28px;
+  font-family: Fixedsys, 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+#restore-word-order-container {
+  top: 10%;
+  position: absolute;
+  left: 50%;
+}
+
+.restore-word-order-block {
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px 0;
+  font-size: 34px;
+}
+
+.restore-word-order-submit-button {
+  width: 150px;
+  height: 50px;
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 10%;
+  background-color: rgb(182, 174, 174);
+  text-align: center;
+  line-height: 50px;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+#restore-word-order-task ul {
+  margin: 0; 
+  padding: 4px;
+}
+
+#restore-word-order-task li {
+  cursor: pointer;
+  user-select: none;
+  display: inline; /* Отображать как строчный элемент */
+  margin-right: 5px; /* Отступ слева */
+  border: 1px solid #000; /* Рамка вокруг текста */
+  padding: 3px; /* Поля вокруг текста */
+  list-style-type: none;
+}
+
+#restore-word-order-task li:hover {
+  background-color: gray;
+}#speech-synthesis-task {
+  position: relative;
+  left: -50%;
+  top: -40%;
+  max-width: 600px;
+  width: 100%;
+  max-height: 500px;
+  height: 100%;
+  background-color: white;
+  border: 1px solid gray;
+  text-align: center;
+  font-size: 28px;
+  font-family: Fixedsys, 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+#speech-synthesis-container {
+  top: 10%;
+  position: absolute;
+  left: 50%;
+}
+
+.speech-synthesis-block {
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px 0;
+  font-size: 34px;
+}
+
+.speech-synthesis-submit-button {
+  width: 150px;
+  height: 50px;
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 10%;
+  background-color: rgb(182, 174, 174);
+  text-align: center;
+  line-height: 50px;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.speech-synthesis-play-button {
+  width: 80px;
+  height: 40px;
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 10%;
+  background-color: rgb(182, 174, 174);
+  text-align: center;
+  line-height: 40px;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+#speech-synthesis-task ul {
+  margin: 0; 
+  padding: 4px;
+}#table-score {
+  position: relative;
+  left: -50%;
+  display: none;
+  max-width: 660px;
+  width: 100%;
+  max-height: 620px;
+  height: 100%;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 26px;
+  font-family: Fixedsys, 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+#table-score-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.record-container {
+  max-width: 660px;
+  width: 100%;
+  min-width: 492px;
+  max-height: 50px;
+  height: 100%;
+  border: 1px solid gray;
+  font-size: inherit;
+  display: flex;
+  flex-flow: row;
+}
+
+.record-block {
+  max-width: 400px;
+  width: 100%;
+  max-height: 50px;
+  height: 100%;
+  font-size: inherit;
+  display: inline-flex;
+}
+
+.record-block:nth-child(2n) {
+  max-width: 120px;
+}
+
+.record-block:nth-child(3n) {
+  max-width: 140px;
+}
+
+.record-submit-button {
+  max-width: 200px;
+  width: 100%;
+  max-height: 50px;
+  height: 100%;
+  margin: 2px auto;
+  border: 2px solid black;
+  border-radius: 10%;
+  background-color: rgb(182, 174, 174);
+  text-align: center;
+  /* line-height: 50px; */
+  font-size: inherit;
+  cursor: pointer;
+}#main-menu, #about {
+  position: relative;
+  left: -50%;
+  max-width: 600px;
+  width: 100%;
+  max-height: 500px;
+  height: 100%;
+  background-color: white;
+  border: 1px solid gray;
+  text-align: center;
+  font-size: 28px;
+  font-family: Fixedsys, 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+#main-menu-container, #about-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.main-menu-block {
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px 0;
+  font-size: 30px;
+}
+
+.main-menu-submit-button {
+  max-width: 150px;
+  width: 100%;
+  max-height: 50px;
+  height: 100%;
+  margin: 2px auto;
+  border: 2px solid black;
+  border-radius: 10%;
+  background-color: rgb(182, 174, 174);
+  text-align: center;
+ /* line-height: 50px; */
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.about-submit-button {
+  max-width: 100px;
+  width: 100%;
+  max-height: 50px;
+  height: 100%;
+  margin: 2px auto;
+  border: 2px solid black;
+  border-radius: 10%;
+  background-color: rgb(182, 174, 174);
+  text-align: center;
+  /* line-height: 50px; */
+  font-size: 30px;
+  cursor: pointer;
+}* {
+  margin: 0;
+  padding: 0;
+}
+.test__button {
+  display: none;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+@font-face {
+  font-family: 'Fixedsys';
+  src: url(9de66fe4842edf59e46e15c90e686087.ttf);
+} 
+
+/*# sourceMappingURL=style.css.map*/
