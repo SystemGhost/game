@@ -1,24 +1,103 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Dungeon Master</title>
-  <meta charset=utf-8 />
-  <meta name=viewport content="width=device-width,initial-scale=1">
-  <meta http-equiv=X-UA-Compatible content="IE=edge">
-<link href="dist/style.css" rel="stylesheet"></head>
+  <link href="style.css" rel="stylesheet">
+</head>
+</head>
 
 <body>
-  <div class=test__button>
-    <button id=enemy-attack>Enemy Attack1</button>
-    <button id=enemy-random>Enemy random</button>
-    <button id=enemy-hurt>Enemy hurt</button>
-    <button id=hero-attack>Hero Attack1</button>
-    <button id=hero-hurt>Hero Hurt</button>
-    <button id=hero-health>Hero Health</button>
-    <button id=background>background</button>
-    <button id=records>Records</button>
-  </div>
-<script type="text/javascript" src="dist/bundle.js"></script></body>
+  <header>
+    <img class="logo" src="img/logo.png" alt="Logo" width="368" height="100">
+    <nav>
+      <ul>
+        <li><a href="./game.html">Играть</a></li>
+        <li><a href="#description">Описание</a></li>
+        <li><a href="#screenshots">Скриншоты</a></li>
+        <li><a href="#author">Автор</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div>
+      <a name="description"></a>
+      <h2>Описание</h2>
+      <p>
+        Добро пожаловать в Dungeon Master, где боевые действия решатся не силой и ловкостью,
+        а исключительно интеллектом! Враги страшны и не знают жалости, но именно вы можете их одолеть!
+        Решайте задачи, обучайтесь и продвигайтесь! Ведь именно здесь вы сможете поучиться чему-то нового,
+        а полученные знания применять повсеместно!
+      </p>
+      <h2>Особенности:</h2>
+      <ul>
+        <li>Генерируемые враги. На своем пути вы не встретите одинаковых монстров!</li>
+        <li>Разнообразные задачи. Математические, переводы, аудирование и много другое</li>
+        <li>Кросплатформенность. Вы можете играть не только с компьютера но и с других устройств!</li>
+        <li>Соревнуйтесь в знаниях! Ведь чем дальше вы проходите, тем больше ваш рейтинг!</li>
+        <li>Выбирайте заклинания, получайте задания, выполняте и смотрите, как знания помогаю побеждать!</li>
+        <li>Враг не дремелет! Враг умеет в арсенале страшные заклинания и сам их использует!</li>
+        <li>Автолевелинг. Чем дальше враг, тем сильнее цена ошибки!</li>
+      </ul>
+    </div>
+    <div>
+      <a name="screenshots"></a>
+      <h2>Скриншоты</h2>
+      <div class='img-container'>
+
+        <a class="lightbox" href="#screen1">
+          <img src="img/screen1.JPG" alt="Screenshot 1" />
+        </a>
+        <div class="lightbox-target" id="screen1">
+          <img src="img/screen1.JPG" alt="Screenshot 1" />
+          <a class="lightbox-close" href="#"></a>
+        </div>
+
+        <a class="lightbox" href="#screen2">
+          <img src="img/screen2.JPG" alt="Screenshot 2" />
+        </a>
+        <div class="lightbox-target" id="screen2">
+          <img src="img/screen2.JPG" alt="Screenshot 2" />
+          <a class="lightbox-close" href="#"></a>
+        </div>
+
+        <a class="lightbox" href="#screen3">
+          <img src="img/screen3.JPG" alt="Screenshot 3" />
+        </a>
+        <div class="lightbox-target" id="screen3">
+          <img src="img/screen3.JPG" alt="Screenshot 3" />
+          <a class="lightbox-close" href="#"></a>
+        </div>
+
+        <a class="lightbox" href="#screen4">
+          <img src="img/screen4.JPG" alt="Screenshot 4" />
+        </a>
+        <div class="lightbox-target" id="screen4">
+          <img src="img/screen4.JPG" alt="Screenshot 4" />
+          <a class="lightbox-close" href="#"></a>
+        </div>
+
+        <a class="lightbox" href="#screen5">
+          <img src="img/screen5.JPG" alt="Screenshot 5" />
+        </a>
+        <div class="lightbox-target" id="screen5">
+          <img src="img/screen5.JPG" alt="Screenshot 5" />
+          <a class="lightbox-close" href="#"></a>
+        </div>
+
+      </div>
+    </div>
+  </main>
+  <footer>
+    <a name="author"></a>
+    <h2>Автор</h2>
+    <div><span>Создатель: </span><a href="https://github.com/SystemGhost">SystemGhost</a></div>
+    <p>Особая благодарность школе <a href="https://school.rollingscopes.com">Rolling Scopes</a> а так же
+      моему метору Богдану, без которых данная игра не увидела бы свет.</p>
+  </footer>
+</body>
 
 </html>
