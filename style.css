@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: pink;
+  background-color: wheat;
 }
 
 header, main, footer {
@@ -13,20 +13,65 @@ header, main, footer {
   width: 100%;
 }
 
+main {
+  background-image: url("./img/background_1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 header {
   height: 100px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url("./img/background_2.png");
+  background-repeat: no-repeat;
+}
+
+footer {
+  background-image: url("./img/background_3.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
 }
 
 header ul {
-  margin: 0; /* Обнуляем значение отступов */
-  padding: 4px; /* Значение полей */
+  margin: 0;
+  padding: 4px;
+  float: right;
+  margin: 0;
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 0px;
+  overflow: hidden;
+  list-style-type: none;
 }
 
 header li {
-  display: inline; /* Отображать как строчный элемент */
-  margin-right: 5px; /* Отступ слева */
-  border: 1px solid #000; /* Рамка вокруг текста */
-  padding: 3px; /* Поля вокруг текста */
+  display: block;
+  font-size: 30px;
+  float: right;
+}
+
+header nav li a {
+  display: block;
+  height: auto;
+  padding: 32px 10px;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+header nav li a:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
 }
 
 header nav {
@@ -34,13 +79,19 @@ header nav {
 }
 
 main {
+  padding-top: 100px;
   text-align: center;
+}
+
+footer div, footer p {
+  margin-left: 50px;
 }
 
 header .logo {
   float: left;
   margin-left: 10px;
 }
+
 
 main h2 {
   font-size: 30px;
@@ -53,13 +104,13 @@ main p {
 main li {
   text-align: left;
   font-size: 20px;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 footer {
   font-size: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 footer h2 {
@@ -74,8 +125,6 @@ footer h2 {
   margin: 50px 20px 20px 20px;
   }
   
-  /* Styles the lightbox, removes it from sight and adds the fade-in transition */
-  
 .img-container  .lightbox-target {
   position: fixed;
   top: -100%;
@@ -89,8 +138,6 @@ footer h2 {
   transition: opacity .5s ease-in-out;
   overflow: hidden;
   }
-  
-  /* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
   
 .img-container .lightbox-target img {
   margin: auto;
@@ -110,8 +157,6 @@ footer h2 {
   transition: .5s ease-in-out;
   }
   
-  /* Styles the close link, adds the slide down transition */
-  
 .img-container a.lightbox-close {
   display: block;
   width:50px;
@@ -129,8 +174,6 @@ footer h2 {
   transition: .5s ease-in-out;
   }
   
-  /* Provides part of the "X" to eliminate an image from the close link */
-  
 .img-container a.lightbox-close:before {
   content: "";
   display: block;
@@ -146,8 +189,6 @@ footer h2 {
   transform:rotate(45deg);
   }
   
-  /* Provides part of the "X" to eliminate an image from the close link */
-  
 .img-container a.lightbox-close:after {
   content: "";
   display: block;
@@ -162,8 +203,6 @@ footer h2 {
   -o-transform:rotate(-45deg);
   transform:rotate(-45deg);
   }
-  
-  /* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
   
 .img-container .lightbox-target:target {
   opacity: 1;
