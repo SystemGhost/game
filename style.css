@@ -219,22 +219,34 @@ footer h2 {
   top: 0px;
 }
 
-@media screen and (max-width: 967px) {
-  main {
-    padding-top: 200px;
- }
- header {
-   height: 200px;
+@media screen and (max-width: 948px) {
+ header .logo {
+   height: 80px;
+   width: 294px;
  }
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 875px) {
   main {
-    padding-top: 300px;
+    padding-top: 127px;
   }
 
   header {
-    height: 300px;
+  height: 127px;
+  }
+
+  header nav li a {
+    padding: 5px 10px;
+  }
+ }
+ 
+@media screen and (max-width: 571px) {
+  main {
+    padding-top: 173px;
+  }
+
+  header {
+    height: 173px;
   }
 }
 
