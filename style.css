@@ -116,15 +116,15 @@ footer {
 footer h2 {
   font-size: 30px;
   text-align: center;
-} 
+}
 
 .img-container a.lightbox img {
   height: 150px;
   border: 3px solid white;
   box-shadow: 0px 0px 8px rgba(0,0,0,.3);
   margin: 50px 20px 20px 20px;
-  }
-  
+}
+
 .img-container  .lightbox-target {
   position: fixed;
   top: -100%;
@@ -137,8 +137,8 @@ footer h2 {
   -o-transition: opacity .5s ease-in-out;
   transition: opacity .5s ease-in-out;
   overflow: hidden;
-  }
-  
+}
+
 .img-container .lightbox-target img {
   margin: auto;
   position: absolute;
@@ -155,8 +155,8 @@ footer h2 {
   -moz-transition: .5s ease-in-out;
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
-  }
-  
+}
+
 .img-container a.lightbox-close {
   display: block;
   width:50px;
@@ -172,8 +172,8 @@ footer h2 {
   -moz-transition: .5s ease-in-out;
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
-  }
-  
+}
+
 .img-container a.lightbox-close:before {
   content: "";
   display: block;
@@ -187,8 +187,8 @@ footer h2 {
   -moz-transform:rotate(45deg);
   -o-transform:rotate(45deg);
   transform:rotate(45deg);
-  }
-  
+}
+
 .img-container a.lightbox-close:after {
   content: "";
   display: block;
@@ -202,22 +202,39 @@ footer h2 {
   -moz-transform:rotate(-45deg);
   -o-transform:rotate(-45deg);
   transform:rotate(-45deg);
-  }
-  
+}
+
 .img-container .lightbox-target:target {
   opacity: 1;
   top: 0;
   bottom: 0;
-  }
-  
+}
+
 .img-container .lightbox-target:target img {
   max-height: 100%;
   max-width: 100%;
-  }
-  
+}
+
 .img-container .lightbox-target:target a.lightbox-close {
   top: 0px;
+}
+
+@media screen and (max-width: 967px) {
+  main {
+    padding-top: 200px;
+ }
+ header {
+   height: 200px;
+ }
+}
+
+@media screen and (max-width: 590px) {
+  main {
+    padding-top: 300px;
   }
 
-
+  header {
+    height: 300px;
+  }
+}
 
